@@ -59,7 +59,7 @@ h2 {
 }
 
 a:hover {
-    background: white;
+    background: rgb(255, 255, 255);
 }
 
 /* MENU HAMBURGUER */
@@ -232,6 +232,18 @@ a:hover {
     transition: 0.5s ease-in-out;
 }
 
+.remove-decorations {
+    text-decoration: none;
+}
+
+#card1 {
+    background-image: url('./img/form.png');
+}
+
+/* #card2 {} */
+
+/* #card3 {} */
+
 .card-text {
     width: 40%;
     letter-spacing: 1px;
@@ -293,6 +305,11 @@ a:hover {
     font-size: 14px;
 }
 
+.card-wrapper a {
+    text-decoration: none;
+    color: #1e1e2a;
+}
+
 /* FOOOTER */
 
 .footer {
@@ -303,4 +320,26 @@ a:hover {
     align-items: center;
     justify-content: center;
     color: #1e1e2a;
+}
+
+@media screen and (max-width: 1330px) {
+
+    .header-container {
+        background-image: none;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .header-container {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+
+    }
+
 }
