@@ -39,6 +39,10 @@ h2 {
     letter-spacing: 4px;
 }
 
+.color {
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.5);
+}
+
 .social-media {
     margin-top: 1rem;
     display: flex;
@@ -240,7 +244,9 @@ a:hover {
     background-image: url('./img/form.png');
 }
 
-/* #card2 {} */
+#card2 {
+    background-image: url('./img/digitalclock.png');
+}
 
 /* #card3 {} */
 
